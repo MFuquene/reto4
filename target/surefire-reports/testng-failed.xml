@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.usa.app.g24.rentas.model.GamaNGTest">
+        <methods>
+          <include name="testGetIdGama"/>
+          <include name="testSetName"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownClass"/>
+          <include name="testSetIdGama"/>
+          <include name="tearDownMethod"/>
+          <include name="testSetDescription"/>
+          <include name="testGetDescription"/>
+          <include name="setUpClass"/>
+          <include name="testGetName"/>
+        </methods>
+      </class> <!-- com.usa.app.g24.rentas.model.GamaNGTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
