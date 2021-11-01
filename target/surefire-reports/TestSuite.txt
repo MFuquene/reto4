@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.591 s <<< FAILURE! - in TestSuite
+testGetDescription(com.usa.app.g24.rentas.model.GamaNGTest)  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at com.usa.app.g24.rentas.model.GamaNGTest.testGetDescription(GamaNGTest.java:98)
+
+testGetIdGama(com.usa.app.g24.rentas.model.GamaNGTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at com.usa.app.g24.rentas.model.GamaNGTest.testGetIdGama(GamaNGTest.java:46)
+
+testGetName(com.usa.app.g24.rentas.model.GamaNGTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at com.usa.app.g24.rentas.model.GamaNGTest.testGetName(GamaNGTest.java:71)
+
+testSetDescription(com.usa.app.g24.rentas.model.GamaNGTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at com.usa.app.g24.rentas.model.GamaNGTest.testSetDescription(GamaNGTest.java:113)
+
+testSetIdGama(com.usa.app.g24.rentas.model.GamaNGTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at com.usa.app.g24.rentas.model.GamaNGTest.testSetIdGama(GamaNGTest.java:59)
+
+testSetName(com.usa.app.g24.rentas.model.GamaNGTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at com.usa.app.g24.rentas.model.GamaNGTest.testSetName(GamaNGTest.java:86)
+
